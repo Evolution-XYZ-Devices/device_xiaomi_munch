@@ -35,7 +35,7 @@ PRODUCT_PACKAGES += \
 
 # GCamGo
 PRODUCT_PACKAGES += \
-    GCamGOPrebuilt
+    GCamGOPrebuilt-V3
 
 # IDC
 PRODUCT_COPY_FILES += \
