@@ -29,10 +29,6 @@ PRODUCT_SHIPPING_API_LEVEL := 31
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/audio/,$(TARGET_COPY_OUT_VENDOR)/etc)
 
-# Camera
-PRODUCT_PACKAGES += \
-    libpiex_shim
-
 # GCamGo
 PRODUCT_PACKAGES += \
     GCamGOPrebuilt-V3
